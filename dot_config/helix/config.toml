@@ -1,0 +1,79 @@
+theme = "nordy"
+
+[editor]
+bufferline = "multiple"
+cursorline = true
+line-number = "relative"
+mouse = true
+scrolloff = 10
+auto-save = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+charactor = "╎"
+
+[editor.file-picker]
+hidden = false
+parents = false
+git-ignore = false
+
+[editor.whitespace]
+render = "all"
+
+[keys.insert]
+j = { k = "normal_mode" }
+"C-space" = "completion"
+
+[editor.lsp]
+# Disable automatically popups of signature parameter help
+# Show LSP messages in the status line
+display-messages = true
+display-inlay-hints = true
+
+[editor.statusline]
+left = ["mode", "spinner", "version-control"]
+center = ["file-name"]
+right = [ "diagnostics",
+  "selections",
+  "position",
+  "file-encoding",
+  "file-line-ending",
+  "file-type",
+]
+separator = "|"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.soft-wrap]
+enable = true
+
+[keys.normal]
+# Use system clipboard
+y = "yank_main_selection_to_clipboard"
+p = "paste_clipboard_before"
+
+[keys.normal."C-backspace"]
+r = ":config-reload"
+o = ":config-open"
+l = ":o ~/.config/helix/languages.toml"
+
+[keys.normal.space]
+w = ":write"
+q = ":quit"
+
+[keys.normal.";"]
+b = ":sh hx-wezterm.sh blame"
+e = ":sh hx-wezterm.sh explorer"
+f = ":sh hx-wezterm.sh fzf"
+g = ":sh hx-wezterm.sh lazygit"
+o = ":sh hx-wezterm.sh open"
+r = ":sh hx-wezterm.sh run"
+s = ":sh hx-wezterm.sh test_single"
+t = ":sh hx-wezterm.sh test_all"
+c = ":sh hx-wezterm.sh run -q --bin"
