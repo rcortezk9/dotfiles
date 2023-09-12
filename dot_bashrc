@@ -130,5 +130,3 @@ fi
 "$HOME/.cargo/env"
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
-
-neofetch
