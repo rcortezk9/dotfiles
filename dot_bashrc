@@ -1,5 +1,5 @@
 export PATH=$PATH:~/.cargo/bin/
-export EDITOR='hx'
+export EDITOR='/usr/bin/hx'
 
 # llvm
 export PATH=/usr/lib/llvm-14/bin:$PATH
