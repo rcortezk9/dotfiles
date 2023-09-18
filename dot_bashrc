@@ -1,5 +1,7 @@
 export PATH=$PATH:~/.cargo/bin/
 export EDITOR=/usr/bin/hx
+export DPRINT_INSTALL="/home/reco/.dprint"
+export PATH="$DPRINT_INSTALL/bin:$PATH"
 
 # llvm
 export PATH=/usr/lib/llvm-14/bin:$PATH
