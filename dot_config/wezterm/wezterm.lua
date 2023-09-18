@@ -13,7 +13,7 @@ end
 return {
   default_prog = { '/usr/bin/bash' },
   window_decorations = "RESIZE",
-  color_scheme = "nordfox",
+  color_scheme = "Gruvbox Material (Gogh)",
   font = wezterm.font_with_fallback({
     "JetBrains Mono",
     { family = "Symbols Nerd Font Mono", scale = 0.75 }
