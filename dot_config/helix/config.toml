@@ -1,4 +1,4 @@
-theme = "nordy"
+theme = "gruvey"
 
 [editor]
 bufferline = "multiple"
