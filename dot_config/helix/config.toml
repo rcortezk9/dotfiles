@@ -36,7 +36,7 @@ display-messages = true
 display-inlay-hints = true
 
 [editor.statusline]
-left = ["mode", "spinner", "version-control"]
+left = ["mode", "spinner"]
 center = ["file-name"]
 right = [ "diagnostics",
   "selections",
@@ -76,4 +76,3 @@ o = ":sh hx-wezterm.sh open"
 r = ":sh hx-wezterm.sh run"
 s = ":sh hx-wezterm.sh test_single"
 t = ":sh hx-wezterm.sh test_all"
-c = ":sh hx-wezterm.sh run -q --bin"
