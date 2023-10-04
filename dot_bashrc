@@ -97,6 +97,9 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+# Alias for envromental passwords
+alias protonmail="PROTON_MAIL_ID=$(pass show proton_email)"
+
 # some more ls aliases
 alias ll='exa -lha --icons'
 alias ls='exa -ga --icons'
