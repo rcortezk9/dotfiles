@@ -19,7 +19,7 @@ return {
     { family = "Symbols Nerd Font Mono", scale = 0.75 }
   }),
   use_cap_height_to_scale_fallback_fonts = true,
-  font_size = 13,
+  font_size = 15,
   scrollback_lines = 5000,
   hide_tab_bar_if_only_one_tab = true,
   audible_bell = "Disabled",
