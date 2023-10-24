@@ -34,7 +34,7 @@ return {
   window_background_opacity = 0.85,
   keys = {
     {
-      key = 'l',
+      key = 'r',
       mods = 'ALT',
       action = wezterm.action.SplitPane {
         direction = 'Right',
@@ -42,7 +42,7 @@ return {
       },
     },
     {
-      key = 'j',
+      key = 'd',
       mods = 'ALT',
       action = wezterm.action.SplitPane {
         direction = 'Down',
@@ -50,7 +50,7 @@ return {
       },
     },
     {
-      key = 'h',
+      key = 'l',
       mods = 'ALT',
       action = wezterm.action.SplitPane {
         direction = 'Left',
@@ -58,7 +58,7 @@ return {
       },
     },
     {
-      key = 'k',
+      key = 'u',
       mods = 'ALT',
       action = wezterm.action.SplitPane {
         direction = 'Up',
@@ -71,12 +71,12 @@ return {
       action = wezterm.action.CloseCurrentPane { confirm = false },
     },
     {
-      key = 'l',
+      key = 'e',
       mods = 'CTRL',
       action = wezterm.action.ActivatePaneDirection 'Next',
     },
     {
-      key = 'l',
+      key = 'v',
       mods = 'CTRL|SHIFT',
       action = wezterm.action.ActivatePaneDirection 'Prev',
     },
