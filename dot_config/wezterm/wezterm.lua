@@ -76,7 +76,7 @@ return {
       action = wezterm.action.ActivatePaneDirection 'Next',
     },
     {
-      key = 'v',
+      key = 'p',
       mods = 'CTRL|SHIFT',
       action = wezterm.action.ActivatePaneDirection 'Prev',
     },
