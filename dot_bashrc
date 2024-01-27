@@ -113,6 +113,7 @@ alias lt='exa --tree --level=2' # to see directory in tree view
 alias fd='fdfind'
 alias c='chezmoi'
 alias br='broot'
+alias ght='$GITHUB_TOKEN'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
