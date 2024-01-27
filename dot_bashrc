@@ -4,6 +4,7 @@ export PATH=$PATH:~/bin/
 export EDITOR=/usr/bin/hx
 export DPRINT_INSTALL="/home/reco/.dprint"
 export PATH="$DPRINT_INSTALL/bin:$PATH"
+export GITHUB_TOKEN=$(pass show gpg_token)
 
 HELIX_RUNTIME=~/.config/helix/runtime
 
