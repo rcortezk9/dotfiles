@@ -4,7 +4,7 @@ export PATH=$PATH:~/bin/
 export EDITOR=/usr/bin/hx
 export DPRINT_INSTALL="/home/reco/.dprint"
 export PATH="$DPRINT_INSTALL/bin:$PATH"
-export GITHUB_TOKEN=$(pass show github_token)
+export GHT=$(pass show github_token)
 
 HELIX_RUNTIME=~/.config/helix/runtime
 
@@ -41,7 +41,7 @@ shopt -s checkwinsize
 #shopt -s globstar
 
 # make less more friendly for non-text input files, see lesspipe(1)
-[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+# [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
@@ -100,10 +100,7 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# Alias for envromental passwords
-alias protonmail="PROTON_MAIL_ID=$(pass show proton_email)"
-
-# some more ls aliases
+# some more ls aliase
 alias ll='exa -lha --icons'
 alias ls='exa -ga --icons'
 alias l='ls -CF'
@@ -111,9 +108,8 @@ alias update="sudo apt update && sudo apt upgrade -y"
 alias bat='batcat'
 alias lt='exa --tree --level=2' # to see directory in tree view
 alias fd='fdfind'
-alias c='chezmoi'
+alias chez='chezmoi'
 alias br='broot'
-alias ght='$GITHUB_TOKEN'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
