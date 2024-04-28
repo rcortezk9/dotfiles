@@ -1,7 +1,7 @@
 export PATH=$PATH:~/.cargo/bin/
 export PATH=$PATH:/home/reco/.local/bin/
 export PATH=$PATH:~/bin/
-export EDITOR=/usr/bin/hx
+export EDITOR=/home/reco/.cargo/bin/hx
 export DPRINT_INSTALL="/home/reco/.dprint"
 export PATH="$DPRINT_INSTALL/bin:$PATH"
 export GHT=$(pass show github_token)
@@ -10,6 +10,9 @@ HELIX_RUNTIME=~/.config/helix/runtime
 
 # llvm
 export PATH=/usr/lib/llvm-14/bin:$PATH
+
+# markdown-oxide
+export PATH=/home/reco/.cargo/bin/markdown-oxide:$PATH
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
